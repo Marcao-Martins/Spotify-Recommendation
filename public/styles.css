@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(45deg, #1DB954, #191414);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+.login-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.spotify-logo {
+    width: 180px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #191414;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.login-button {
+    background: #1DB954;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.login-button:hover {
+    transform: scale(1.05);
+    background: #1ed760;
+}
+
+/* Artist list styling */
+.artist-container {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.artist-list {
+    list-style: none;
+}
+
+.artist-item {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+.artist-item:last-child {
+    border-bottom: none;
+}
+
+.artist-item:hover {
+    background-color: #f8f8f8;
+}
+
+.artist-number {
+    font-weight: bold;
+    color: #1DB954;
+    margin-right: 15px;
+    min-width: 30px;
+} 
